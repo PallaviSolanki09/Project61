@@ -1,0 +1,182 @@
+body {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: midnightblue;
+    font-family: 'Lobster', cursive;
+}
+
+#dance {
+    height: 550px;
+    border-radius: 50%;
+    border: double;
+    border-color: midnightblue;
+    border-width: 10px;
+    padding: 0px;
+}
+
+#dance2 {
+    height: 250px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    border-radius: 50%;
+    border: double;
+    border-color: midnightblue;
+    border-width: 10px;
+}
+
+#dance3 {
+    height: 250px;
+    width: 200px;
+    margin-bottom: 200px;
+    margin-right: 100px;
+    border-radius: 50%;
+    border: double;
+    border-color: midnightblue;
+    border-width: 10px;
+}
+
+#welcome {
+    padding-top: 100px;
+    height: 800px;
+    background-image: linear-gradient(to bottom right, #3a1c71, #d76d77, #ffaf7b);
+    z-index: 9;
+    line-height:1.5;
+}
+
+#bio {
+    height: 600px;
+    background-image: linear-gradient(to top right, #3a1c71, #d76d77, #ffaf7b);
+    padding-top: 5%;
+    font-family: 'Satisfy', cursive;
+}
+
+.menu{
+    position:fixed;
+    list-style:none;
+    font-family:sans-serif;
+    top:0px;
+    cursor:pointer;
+    z-index:10;
+    margin-top:0px;
+    background:white;
+    width:100%;
+    font-family: 'Lobster', cursive;
+}
+
+.link{
+    float:left;
+    display:inline;
+    padding-left:33px;
+    padding-right:25px;
+    font-size:20px;
+}
+.link:hover{
+     transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+    border: ridge;
+    border-color: white;
+    border-width: medium;
+    border-radius: 10px;
+    font-size:25px;
+    text-decoration:underline;
+}
+.line{
+    height:6px;
+    background-color:black;
+    width:70px;
+    margin:auto;
+    top:5px;
+    margin-bottom:80px;
+}
+#My_favourite_dance{
+    background-image: linear-gradient(to bottom right, #3a1c71, #d76d77, #ffaf7b);
+    height:800px;
+    margin:0.1%;
+    padding:1px;
+    padding-bottom:40%;
+}
+iframe{
+    border-color:darkslateblue;
+}
+#My_teacher{
+    background-image: linear-gradient(to top right, #3a1c71, #d76d77, #ffaf7b);
+    padding-bottom:40%;
+    padding:1px;
+}
+#Inspiration{
+    background-image: linear-gradient(to bottom right, #3a1c71, #d76d77, #ffaf7b);
+    padding-bottom:40%;
+    padding:1px;
+}
+.article:hover{
+    color:yellow;
+    font-size:20px;
+    border-color:linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+}
+html{
+    scroll-behavior:smooth;
+}
+#Teacher{
+    background-image: linear-gradient(to top right, #3a1c71, #d76d77, #ffaf7b);
+    height:40%;
+    margin:0.1%;
+    padding:1px;
+    padding-bottom:40%;
+}
+#teach1{
+    height:400px;
+    width:400px;
+    transition: transform .2s;
+    border: ridge;
+    border-width: 5px;
+    border-color: darkcyan;
+    border-radius: 10px;
+}
+#teach2{
+    height:400px;
+    width:400px;
+    transition: transform .2s;
+    border: ridge;
+    border-width: 5px;
+    border-color: darkcyan;
+    border-radius: 10px;
+}
+#Teacher a{
+   margin: 20px; 
+}
+#teach1:hover{
+    transform: scale(0.8);
+}
+#teach2:hover{
+    transform: scale(0.8);
+}
+#Location{
+    background-image: linear-gradient(to bottom right, #3a1c71, #d76d77, #ffaf7b);
+    height:150%;
+    width:100%;
+    padding-bottom:40%;
+    padding:1px;
+}
+#Location iframe{
+    height:60%;
+    width:100%;
+}
+a{
+    text-decoration:none;
+    color:crimson;
+}
+#hello{
+    text-shadow: 2px 2px gray;
+}
+
